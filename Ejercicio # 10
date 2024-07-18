@@ -1,0 +1,11 @@
+Una Metal- mecánica tiene mucho éxito en dos de sus productos: engranes y cilindros. Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de los engranes y cilindros que saldrán en cada paquete. Cada engrane pesa 112 g y cada cilindro 75 g. Escribir un programa que lea el número de engranes y cilindros vendidos en el último pedido y calcule el peso total
+del paquete que será enviado.  
+
+
+
+engranes = int(input("Ingrese el número de engranes vendidos: "))
+cilindros = int(input("Ingrese el número de cilindros vendidos: "))
+peso_engranes = engranes * 112
+peso_cilindros = cilindros * 75
+peso_total = peso_engranes + peso_cilindros
+print("El peso total del paquete es:", peso_total, "g")
